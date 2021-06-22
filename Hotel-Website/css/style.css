@@ -72,6 +72,10 @@ lead {
     color: #333;
 }
 
+.clr {
+    clear: both;
+}
+
 
 
 /* Navbar */
@@ -167,4 +171,11 @@ lead {
 
 .box i {
     margin-bottom: 10px;
+}
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px; 
 }
