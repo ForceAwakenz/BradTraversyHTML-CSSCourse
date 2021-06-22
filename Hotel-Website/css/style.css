@@ -30,6 +30,49 @@ p {
     padding: 0 20px;
 }
 
+.text-primary {
+    color: #f7c08a;
+}
+
+lead {
+    font-size: 20px;
+}
+
+ .btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;;
+    padding: 10px 0;
+    background: #333 ;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f7c08a;
+    color: #333;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-primary {
+    background-color: #333;
+    color: #f7c08a;
+}
+
+
 
 /* Navbar */
 #navbar {
@@ -80,6 +123,41 @@ p {
     padding-top: 170px;
 }
 
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    /* font-weight: 700; */
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
 
 /*----------------------------------------------------------*/
 
@@ -97,13 +175,13 @@ a.btn {
 }
 
 
-.showcase-content {
+#showcase .showcase-content {
     text-align: center;
     color: #fff;
     padding: 150px 20px;
 }
 
-#showcase .container .showcase-content h1 {
+#showcase .showcase-content h1 {
     font-size: 60px;
     font-weight: 700;
 }
