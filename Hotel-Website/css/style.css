@@ -245,6 +245,11 @@ lead {
     border: 1px #ddd solid;
 }
 
+#contact-form :is(input, textarea):focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
 #contact-form textarea {
     height: 200px;
 }
