@@ -176,17 +176,24 @@ lead {
     float: left;
     text-align: center;
     padding: 50px;
+    height: 100%;
 }
 
 .box i {
     margin-bottom: 10px;
 }
 
+/* Features */
+
+#features {
+    background-color:#f4f4f4;
+    overflow: auto;
+}
+
 /* About Info */
 #about-info .info-right {
     float: right;
     width: 50%;
-    min-height: 100%;
 }
 
 #about-info .info-right img {
